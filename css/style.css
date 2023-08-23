@@ -1,0 +1,317 @@
+/* fonts link start*/
+
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url(../fonts/poppins/poppins-regular.ttf);
+}
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url(../fonts/poppins/poppins-medium.ttf);
+}
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url(../fonts/poppins/poppins-bold.ttf);
+}
+@font-face {
+    font-family: 'Rubik', sans-serif;
+    src: url(../fonts/rubik/rubik-bold.ttf);
+}
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url(../fonts/roboto/roboto-regular.ttf);
+}
+
+/* fonts link end*/
+
+
+/* common css start */
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+/* common css end */
+
+
+/* header start */
+header{
+    padding: 15px 0;
+    background-color: #F0FFF0;
+}
+.c_nav{
+
+}
+.logo{
+
+}
+.menu{
+
+}
+.menu ul li a{
+    padding: 0 25px !important;
+    color: #000000 !important;
+}
+.menu ul li a:hover{
+    color: #FD511A !important;
+}
+.btn_cm{
+    background-color: #21B573;
+    border-radius: 33px;
+    font-family: 'Roboto', sans-serif;
+    color: white !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn_sg{
+    margin-left: 20px;
+    /* padding: 12px 28px; */
+    width: 105px;
+    height: 45px;
+}
+.btn_cm:hover{
+    background-color: #FD511A;
+}
+.btn_cm:active{
+    background-color: #FD511A !important;
+}
+/* header end */
+
+
+/* banner start */
+.banner{
+    background-color: #F0FFF0;
+    padding-bottom: 65px;
+}
+.b_text{
+
+}
+.b_p1{
+    color: #FD511A;
+}
+.b_h1{
+    margin-top: 10px;
+    padding-right: 119px;
+    margin-bottom: 19px;
+    color: #000;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.b_h1 span{
+    color: #21B573;
+}
+.b_p2{
+    padding-right: 166px;
+    line-height: 36px;
+}
+.btn_link{
+    margin-top: 14px;
+    width: 155px;
+    height: 45px;
+}
+.b_img{
+
+}
+.b_img img{
+
+}
+/* banner end */
+
+
+/* feature start */
+
+.feature{
+    
+}
+.c_padding{
+    padding-bottom: 100px;
+}
+.s_feature{
+    margin-top: 45px;
+    padding: 55px 0 50px;
+    border-radius: 10px;
+    background: #F8FFFB;
+    transition: 0.33s ease;
+}
+.s_feature:hover{
+    background-color: white;
+    -webkit-box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);
+    -moz-box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);
+}
+.s_img{
+    width: 65px;
+    height: 75px;
+    margin: 0 auto;
+}
+.s_img img{
+
+}
+.s_h2{
+    margin-top: 22px;
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+.s_p{
+
+}
+/* feature end */
+
+
+/* course start */
+.course{
+    
+}
+.c_title{
+
+}
+.c_h1{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #000;
+}
+
+.c_item{
+    margin-top: 60px;
+    padding: 24px 20px 30px;
+    border-radius: 18px;
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.10);
+
+}
+.c_img{
+
+}
+.c_img img{
+
+}
+.c_h2{
+    margin: 20px 0 5px;
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+.c_p{
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.btn_cr{
+    margin: 20px 0 35px;
+    width: 140px;
+    height: 35px;
+}
+
+.c_footer{
+
+}
+.c_left{
+
+}
+.c_left ul li img{
+
+}
+.c_left ul li span{
+    font-weight: 500 !important;
+}
+
+.c_right{
+
+}
+.c_li:not(:last-child){
+    margin-right: 2px;
+}
+.c_right ul li img{
+
+}
+.c_right ul li span{
+    font-weight: 500 !important;
+}
+/* course end */
+
+
+/* tetsimony start */
+.testimony{
+    
+}
+.t_title{
+
+}
+.t_h1{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #000;
+}
+.t_item{
+    margin-top: 60px;
+}
+.t_img{
+
+}
+.t_img img{
+
+}
+.t_text{
+
+}
+.t_p{
+
+}
+/* tetsimony end */
+
+
+/* footer top start */
+.footer_top{
+    padding-top: 50px;
+    background-color: #282531;
+}
+.ft_details{
+    color: white;
+    padding-right: 160px;
+}
+.ft_links{
+
+}
+.ft_links h2{
+    margin-bottom: 8px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.ft_links ul li a{
+    margin-bottom: 8px;
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+/* footer top end */
+
+
+/* footer start  */
+footer{
+    padding: 35px 0;
+    background-color: #282531;
+}
+.ft_p{
+    color: white;
+    line-height: 30px;
+}
+.ft_p a{
+    color: white;
+    line-height: 30px;
+    text-decoration: none;
+}
+/* footer end */
+
+
+
+
+
